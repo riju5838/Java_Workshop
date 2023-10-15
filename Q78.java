@@ -1,13 +1,30 @@
-package Assignment_5;
-
+package extra_question;
+import java.util.*;
 public class Q78 {
     public static void main(String[] args) {
-        int[][]marks=new int[2][2];
-        marks[0][0]=100;
-        marks[0][1]=200;
-        marks[1][0]=205;
-        marks[1][1]=400;
-        System.out.println(marks[1][1]);
-    }
-    
+       /* System.out.println("enter a && b");
+        Scanner sc=new Scanner(System.in);
+         int a=sc.nextInt();
+        int b=sc.nextInt();
+        int marks=a+b;
+        int percentage=marks*100/200;
+        System.out.println(percentage);*/
+       // int a=5;
+        //System.out.println(64>5 && 7>6);
+       // int i=67;
+       // System.out.println(i++);
+       /* char ch='a';
+        char
+        System.out.println(++ch);
+*/
+String letter="Riju";
+//int lstring=name.length();
+//String lstrin=name.toLowerCase();
+//System.out.println(name.replace('i','u'));
+  //System.out.println(name.startsWith("Ri"));
+  //System.out.println(name.endsWith("ju"));
+//System.out.println("%d"name.format(format, args));
+System.out.printf("%d",letter);
+//System.out.println(letter);
+}
 }

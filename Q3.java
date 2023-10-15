@@ -1,35 +1,32 @@
-package Assignment_5;
+package extra_question;
 
-import java.util.*;
 public class Q3 {
-    public static void main(String[]args){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter string");
-        String a=sc.nextLine();
-        System.out.println("times u want to print");
+    public static void main(String[] args) {
+       
+        int[][]mat1={{1,2,3},
+                    {4,5,6}};
+        int[][]mat2={{7,8,9},
+                    {14,15,16}};
+        int[][]result={{0,0,0},
+                       {0,0,0}};
+        for(int i=0;i<mat1.length;i++){
+        for(int j=0;j<mat1[i].length;j++){  
+        result[i][j]=mat1[i][j]+mat2[i][j];
+        }
+    }
+
+        for(int i=0;i<mat1.length;i++){
+         for(int j=0;j<mat1[i].length;j++){           
         
-        int n=sc.nextInt();
-        int i=1;
-        String b;
-        while(i<=n)
-        { if(i%10==1 && i%100==1)
-            {
-                b="st";
-            }
-            else if(i%10==2 && i%100==2)
-            {
-                b="nd";
-}
-else if(i%10==3 && i%100==3)
-{ 
-    b="rd";
-}
-else
-{
-    b="th";
-}
-System.out.println(i+b+a);
-        i++;}
+            System.out.print(result[i][j]+"");
+            result[i][j]=mat1[i][j]+mat2[i][j];
+         }
+        }
+      
+                    
+            System.out.println("");
+
+
     }
     
 }

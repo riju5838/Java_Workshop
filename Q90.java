@@ -1,23 +1,31 @@
-import java.util.*;
+package sem_2;
+
 public class Q90 {
-    public static void WaveArray2(int[]arr){
-        int size=arr.length;
-    
-            
-        for(int i=0;i<size;i++){
-            for(int j=1;j<size;j++){
-                if(arr[i]<arr[j]){
-                    swap(arr,i,j);
-                }
+    static int logic(int x,int y){
+            int z;
+            if(x>y){
+                z=x+y;
                 
             }
-        }
+            else{
+                z=(x+y)*5;
+            
+            }
+            return z;
     }
-        public static void main(String[]args){
-int arr[]={4,5,6,7,8};
-WaveArray2(arr);
-System.out.println(arr.length);
 
-        
-    }
+public static void main(String[] args) {
+    int a=7;
+    int b=6;
+    int c;
+    c=logic(a,b);
+    int a1=17;
+    int b1=10;
+    int c1;
+    c1=logic(a1,b1);
+    System.out.println(c);
+    System.out.println(c1);
+}
+    
+    
 }

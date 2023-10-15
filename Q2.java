@@ -1,24 +1,27 @@
-package Assignment_5;
+package extra_question;
 
-import javax.lang.model.util.ElementScanner14;
-
+//code with harry
 public class Q2 {
-    public static void main(String[]args){
-int i=1,n;
-n=Integer.parseInt(args[0]);
-while(i<=n)
-{
-    if(i%10==1 && i%100!=11)
-    System.out.println(i+"st hellow");
-    else if(i%10==2 && i%100!=12)
-    System.out.println(i+"nd hellow");
-    else if(i%10==3 && i%100!=13)
-    System.out.println(i+"rd hellow");
-    else
-    System.out.println(i+"th hellow");
-    i++;
-}
- 
-  }
+   public static void main(String[] args) {
+       /* Scanner sc=new Scanner(System.in);
+         int N=sc.nextInt();
+         System.out.println("enter");
+        int[]marks=new int[N];
+        for(int i=1;i<N;i++)
+        {
+            marks[i]=sc.nextInt();
+            System.out.println("marks="+marks);
+       
+        boolean a=true;
+        boolean b=false;
+       if(a||b)
+        {
+            System.out.println("value");
+        }*/
+        int g=4;
+        System.out.println(g>>2);
+    }
+    }
+
     
-}
+

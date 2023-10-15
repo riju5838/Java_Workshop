@@ -1,17 +1,14 @@
-package Assignment_5;
+package sem_2;
+
+import java.util.Scanner;
 
 public class Q13 {
-    
-    public static void main(String[]args){
-       System.out.print("sum first 100 natural numbers="); 
-     int a=0,b=0;
-     for(int i=1;i<=10;i++)
-    
-{a=a+i;
-     b=b+(i*i);
-}
-System.out.println(b);
-System.out.println(a*a);
+    public static void main(String[] args) {
+        // System.out.println("feet");
+        // Scanner sc = new Scanner(System.in);
+        // double feet = sc.nextDouble();
+        // double meter = (0.305 * feet);
+        // System.out.printf("in meter" + meter);
+        System.out.printf("hellow");
     }
-    
 }
